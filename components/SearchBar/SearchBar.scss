@@ -1,0 +1,47 @@
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 71px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+
+.inputText{
+    background-color: #ffffff;
+    width: 50%;
+    font-family: cursive;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-color: #907fcc;
+}
+
+.button{
+background-color: #907fcc;
+border-color: #907fcc;
+border-radius: 10px;
+}
+
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+
+  
+@font-palette-values --Purples {
+    font-family: Rocher;
+    base-palette: 6;
+  }
+  
+  .tittle {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+    font-palette: --Purples;
+  }
+  
+
+  

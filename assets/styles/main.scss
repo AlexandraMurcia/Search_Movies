@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.movie-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.movie-modal {
+    width: 100%;
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.p-dialog-header {
+    color: #000 !important; 
+  }
+  
+  .p-dialog-title {
+    color: #4b1f1f !important;
+    font-size: xx-large !important;
+    font-weight: 700 !important;
+  }
